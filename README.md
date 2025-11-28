@@ -24,7 +24,7 @@ A private Streamlit app to extract full YouTube video transcripts (with timestam
    ```
 2. Create a virtual environment (recommended):
    ```
-   python -m venv venv
+   python3 -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 3. Install dependencies:
