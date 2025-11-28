@@ -150,4 +150,4 @@ Ver `requirements.txt` para versiones:
 ¡Siéntete libre de hacer fork, PR o abrir issues! Sugerencias de mejoras (ej: soporte para traducción, exportar a archivo) bienvenidas.
 
 ## Licencia
-Licencia MIT – Ver [LICENSE](LICENSE) para detalles.
+Licencia MIT – Ver [LICENSE](LICENSE) para detalles.# youtube-transcript-prompt-app
