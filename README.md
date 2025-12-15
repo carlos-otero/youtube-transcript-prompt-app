@@ -27,7 +27,6 @@ Use the included script to set up the environment and run the app automatically.
    ```bash
    git clone [https://github.com/your-username/youtube-transcript-prompt-app.git](https://github.com/your-username/youtube-transcript-prompt-app.git)
    cd youtube-transcript-prompt-app
-````
 
 2.  Run the start script:
     ```bash
