@@ -91,10 +91,16 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Centered and prominent input
-st.markdown("### 📎 Paste the YouTube video link here (processes automatically):")
-url = st.text_input("", placeholder="https://www.youtube.com/watch?v=...", key="url_input")
-
+#st.markdown("### 📎 Paste the YouTube video link here (processes automatically):")
+#url = st.text_input("", placeholder="https://www.youtube.com/watch?v=...", key="url_input")
+st.text_input(
+    "Paste the YouTube video link here (processes automatically)",
+    placeholder="https://www.youtube.com/watch?v=...",
+    key="url_input",
+    label_visibility="collapsed"  # Or "hidden" if you want it fully invisible
+)
 # Auto-processing: If valid URL, process
+url = st.session_state.get("url_input", "")  # Ensure 'url' is defined; use session_state to retrieve value
 if url:
     video_id = extract_video_id(url)
     if video_id:
