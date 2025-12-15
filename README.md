@@ -33,7 +33,6 @@ Use the included script to set up the environment and run the app automatically.
     ```bash
     chmod +x start.sh
     ./start.sh
-    ```
 
 ### ⚙️ Option 2: Manual Installation
 
